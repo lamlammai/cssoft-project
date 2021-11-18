@@ -1,0 +1,12 @@
+.List-wraper {
+  .list-class {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 187px;
+    }
+  }
+}

@@ -1,4 +1,6 @@
 // libs
+import "admin-lte/dist/js/adminlte.min";
+import "bootstrap";
 import { Suspense } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Provider as ReduxProvider } from "react-redux";
@@ -7,7 +9,7 @@ import { CssBaseline } from "@mui/material";
 import appRoutes from "@/routers";
 // others
 import { store } from "@/redux/store";
-import "@/styles/index.css";
+import "@/styles/base.scss";
 
 /**
  * App

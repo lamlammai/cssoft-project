@@ -12,7 +12,7 @@ import { store } from "@/redux/store";
 import "@/styles/base.scss";
 
 /**
- * App
+ * App change smt
  */
 export default function App() {
   return (
